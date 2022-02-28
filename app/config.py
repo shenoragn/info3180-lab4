@@ -10,11 +10,3 @@ class Config(object):
     ADMIN_USERNAME = os.environ.get('ADMIN_USERNAME', 'admin')
     ADMIN_PASSWORD = os.environ.get('ADMIN_PASSWORD', 'Password123')
     UPLOAD_FOLDER = os.environ.get('UPLOAD_FOLDER', './uploads')
-
-'''class DevelopmentConfig(Config):
-    DEVELOPMENT - True
-    DEBUG = True
-
-class ProductionConfig(Config):
-    DEBUG = False
-    '''
